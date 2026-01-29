@@ -82,3 +82,8 @@ F1-Score
 Confusion Matrix (TP, TN, FP, FN)
 
 Recall is prioritized to ensure maximum identification of churn customers.
+
+## 📊 Results Summary
+- Logistic Regression: Baseline model with interpretable coefficients
+- Decision Tree: Improved non-linear pattern capture
+- PyTorch Neural Network: Best recall for churn customers after threshold tuning
