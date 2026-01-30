@@ -83,6 +83,13 @@ Confusion Matrix (TP, TN, FP, FN)
 
 Recall is prioritized to ensure maximum identification of churn customers.
 
+## PyTorch Neural Network vs Logistic Regression
+
+- Implemented a PyTorch NN for churn prediction
+- Compared with Logistic Regression baseline
+- Evaluated with accuracy, precision, recall, and confusion matrix
+- Observed NN has higher precision, Logistic has higher recall for churn
+
 ## 📊 Results Summary
 - Logistic Regression: Baseline model with interpretable coefficients
 - Decision Tree: Improved non-linear pattern capture
