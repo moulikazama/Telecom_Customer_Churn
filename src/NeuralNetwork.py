@@ -51,7 +51,7 @@ def run_neural_network(df, epochs=100):
     model.eval()
     with torch.no_grad():
         probs = torch.sigmoid(model(X_test))
-        y_pred = (probs >= 0.5).float()
+        y_pred = (probs >= 0.3).float()
 
     y_pred = y_pred.numpy()
     y_test = y_test.numpy()

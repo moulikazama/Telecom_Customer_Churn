@@ -13,14 +13,14 @@ weighted avg       0.80      0.74      0.75      1409
 
 
 NEURAL NETWORK
-Accuracy: 0.7877927608232789
-[[922 113]
- [186 188]]
+Accuracy: 0.7799858055358411
+[[854 181]
+ [129 245]]
               precision    recall  f1-score   support
 
-         0.0       0.83      0.89      0.86      1035
-         1.0       0.62      0.50      0.56       374
+         0.0       0.87      0.83      0.85      1035
+         1.0       0.58      0.66      0.61       374
 
-    accuracy                           0.79      1409
-   macro avg       0.73      0.70      0.71      1409
-weighted avg       0.78      0.79      0.78      1409
+    accuracy                           0.78      1409
+   macro avg       0.72      0.74      0.73      1409
+weighted avg       0.79      0.78      0.78      1409
